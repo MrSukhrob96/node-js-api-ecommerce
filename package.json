@@ -1,10 +1,17 @@
 {
-  "name": "api",
+  "name": "Node.js Api for Ecommerce",
+  "description": "Api on Node.js for Ecommrece",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js"
+  },
+  "author": "Islomkhuja",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanotexnolagiya/node-js-api-ecommerce"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
